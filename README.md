@@ -7,7 +7,7 @@ It is licensed under [MIT](https://opensource.org/licenses/MIT).
 
 When sending a direct message to slack bot, bot executes workspace of Watson Conversation as follows.
 
-<img src="https://riversun.github.io/wcs/img/watson_slacklet_en.gif" width=75%>
+<img src="https://riversun.github.io/wcs/img/watson_slacklet_en2.gif" width=75%>
 
 # Source
 
