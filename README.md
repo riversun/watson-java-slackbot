@@ -9,6 +9,9 @@ When sending a direct message to slack bot, bot executes workspace of Watson Con
 
 <img src="https://riversun.github.io/wcs/img/watson_slacklet_en2.gif" width=75%>
 
+### workspace file here
+https://github.com/watson-developer-cloud/conversation-simple/tree/master/training
+
 # Source
 
 ```java
