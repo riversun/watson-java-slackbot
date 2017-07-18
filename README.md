@@ -5,14 +5,30 @@ It is licensed under [MIT](https://opensource.org/licenses/MIT).
 
 # About this example
 
-When sending a direct message to slack bot, bot executes workspace of Watson Conversation as follows.
+When sending a direct message to slack bot , bot executes workspace of Watson Conversation as follows.
+This example is made with [Slacklet](https://github.com/riversun/slacklet) and [watson-conversation-service-for-java](https://github.com/riversun/watson-conversation-service-for-java).You can use these libraries by adding maven dependencies like below.
 
 <img src="https://riversun.github.io/wcs/img/watson_slacklet_en2.gif" width=75%>
 
 ### workspace file here
 https://github.com/watson-developer-cloud/conversation-simple/tree/master/training
 
-# Source
+# maven
+
+```xml
+<dependency>
+	<groupId>org.riversun</groupId>
+	<artifactId>wcs</artifactId>
+	<version>1.0.2</version>
+</dependency>
+<dependency>
+	<groupId>org.riversun</groupId>
+	<artifactId>slacklet</artifactId>
+	<version>1.0.2</version>
+</dependency>
+```
+
+# Source code
 
 ```java
 
@@ -81,17 +97,4 @@ public class WcsSlackBotExample00 {
 }
 ```
 
-# maven
 
-```xml
-		<dependency>
-			<groupId>org.riversun</groupId>
-			<artifactId>wcs</artifactId>
-			<version>1.0.2</version>
-		</dependency>
-		<dependency>
-			<groupId>org.riversun</groupId>
-			<artifactId>slacklet</artifactId>
-			<version>1.0.2</version>
-		</dependency>
-```
